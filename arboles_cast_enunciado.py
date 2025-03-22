@@ -186,6 +186,7 @@ print(f"\nResultado de alfa-beta (de izquierda a derecha): {resultado:.2f}")
 print("\nÁrbol después de la poda alfa-beta (de izquierda a derecha):")
 imprimir_arbol(arbol1)
 
+# Aplicar el algoritmo de poda alfa-beta, de derecha a izquierda
 resultado = alfa_beta(arbol2)
 print(f"\nResultado de alfa-beta (derecha a izquierda): {resultado:.2f}")
 print("\nÁrbol después de la poda alfa-beta (derecha a izquierda):")
